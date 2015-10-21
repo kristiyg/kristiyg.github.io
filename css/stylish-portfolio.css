@@ -56,6 +56,9 @@ hr.small {
     width: 50px;
     height: 50px;
 }
+.navIcons {
+	color: white;
+}
 
 #sidebar-wrapper {
     z-index: 1000;
@@ -164,6 +167,9 @@ hr.small {
 .service-item {
     margin-bottom: 30px;
 }
+.fa {
+	color: grey;
+}
 
 /* Projects */
 .projects {
@@ -191,8 +197,10 @@ footer {
 	color: white;
 }
 
-
 /*Carousel*/
+.carousel-caption > a > h1 {
+	color: white;
+}
 .carousel, .item, .active {
     height: 100%;
 }
@@ -211,11 +219,11 @@ footer {
 	background-color: black;*/
 }
 #slide1 {
-	background: url(../img/kg_25.jpg) no-repeat center center scroll;
+	background: url(../img/kg_20.jpg) no-repeat center center scroll;
 }
 #slide2 {
 	background: url(../img/skyline4.jpg) no-repeat center center scroll;
 }
 #slide3 {
-	background: url(../img/skyline1.jpg) no-repeat center center scroll;
+	background: url(../img/myschool2.jpg) no-repeat center center scroll;
 }
