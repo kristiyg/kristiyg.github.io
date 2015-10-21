@@ -34,7 +34,7 @@
 					<a href="#projects" onclick = $("#menu-close").click(); >Projects</a>
 				</li>
 				<li>
-					<a href="#services" onclick = $("#menu-close").click(); ></a>
+					<a href="#services" onclick = $("#menu-close").click(); >Other Experience</a>
 				</li>
 				<li>
 					<a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
@@ -42,22 +42,37 @@
 			</ul>
 		</nav>
 
-		<!-- Header -->
-		<header id="top" class="header">
-			<div class="text-center">
-				<br>
-				<br>			
-				<br>
-				<br>
-				<br>			
-				<br>
-				<br>
-				<br>
-				<br>
-				<a href="#about"><h1>Kristi Gable</h1></a>
+		<header id="myCarousel" class="carousel slide">
+			<!-- Indicator Dots -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+
+			<!-- Wrapper for Slides -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<div id="slide1" class="fill"></div>
+					<div class="carousel-caption">
+						<a href="#about"><h1>Kristi Gable</h1></a>
+					</div>
+				</div>
+				<div class="item">
+					<div id="slide2" class="fill"></div>
+					<div class="carousel-caption">
+						<h2>My City</h2>
+					</div>
+				</div>
+				<div class="item">
+					<div id="slide3" class="fill"></div>
+					<div class="carousel-caption">
+						<h2>Caption 3</h2>
+					</div>
+				</div>
 			</div>
 		</header>
-
+		
 		<!-- About -->
 		<section id="about" class="about">
 			<div class="container">
@@ -71,7 +86,7 @@
 			</div>
 		</section>
 
-				<!-- Projects -->
+		<!-- Projects -->
 		<section id="projects" class="projects">
 			<div class="container">
 				<div class="row">
@@ -82,49 +97,44 @@
 							<div class="col-md-6">
 								<div class="projects-item">
 									<a href="#">
-										<img class="img-projects img-responsive" src="img/portfolio-1.jpg">
+										<img class="img-projects img-responsive" src="img/geocaching2.jpg">
 									</a>
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="projects-item">
 									<a href="#">
-										<img class="img-projects img-responsive" src="img/portfolio-2.jpg">
+										<img class="img-projects img-responsive" src="img/geocaching1.jpg">
 									</a>
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="projects-item">
 									<a href="#">
-										<img class="img-projects img-responsive" src="img/portfolio-3.jpg">
+										<img class="img-projects img-responsive" src="img/dubhacks.jpg">
 									</a>
 								</div>
 							</div>
 							<div class="col-md-6">
 								<div class="projects-item">
 									<a href="#">
-										<img class="img-projects img-responsive" src="img/portfolio-4.jpg">
+										<img class="img-projects img-responsive" src="img/research.jpg">
 									</a>
 								</div>
 							</div>
 						</div>
-						<!-- /.row (nested) -->
-						<a href="#" class="btn btn-dark">View More Items</a>
 					</div>
-					<!-- /.col-lg-10 -->
 				</div>
-				<!-- /.row -->
 			</div>
-			<!-- /.container -->
+			
 		</section>
 		
 		<!-- Services -->
-		<!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
 		<section id="services" class="services bg-primary">
 			<div class="container">
 				<div class="row text-center">
 					<div class="col-lg-10 col-lg-offset-1">
-						<h2>Our Services</h2>
+						<h2>Other Experience</h2>
 						<hr class="small">
 						<div class="row">
 							<div class="col-md-3 col-sm-6">
@@ -137,7 +147,7 @@
 										<strong>Service Name</strong>
 									</h4>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-									<a href="#" class="btn btn-light">Learn More</a>
+	
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6">
@@ -150,7 +160,6 @@
 										<strong>Service Name</strong>
 									</h4>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-									<a href="#" class="btn btn-light">Learn More</a>
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6">
@@ -163,7 +172,6 @@
 										<strong>Service Name</strong>
 									</h4>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-									<a href="#" class="btn btn-light">Learn More</a>
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6">
@@ -176,7 +184,6 @@
 										<strong>Service Name</strong>
 									</h4>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-									<a href="#" class="btn btn-light">Learn More</a>
 								</div>
 							</div>
 						</div>
@@ -191,7 +198,6 @@
 										<strong>Service Name</strong>
 									</h4>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-									<a href="#" class="btn btn-light">Learn More</a>
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6">
@@ -204,7 +210,6 @@
 										<strong>Service Name</strong>
 									</h4>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-									<a href="#" class="btn btn-light">Learn More</a>
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6">
@@ -217,7 +222,6 @@
 										<strong>Service Name</strong>
 									</h4>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-									<a href="#" class="btn btn-light">Learn More</a>
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6">
@@ -230,7 +234,6 @@
 										<strong>Service Name</strong>
 									</h4>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-									<a href="#" class="btn btn-light">Learn More</a>
 								</div>
 							</div>
 						</div>
@@ -308,6 +311,10 @@
 				}
 			});
 		});
+		
+		$('.carousel').carousel({
+			interval: 5000 //changes the speed
+		})
 		</script>
 	</body>
 </html>

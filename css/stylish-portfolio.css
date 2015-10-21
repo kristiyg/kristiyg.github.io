@@ -155,17 +155,21 @@ hr.small {
 	color: black;
 }
 
-/* Services */
+/* Other Work */
 .services {
     padding: 50px 0;
+	color: black;
+	background-color: white;
 }
 .service-item {
     margin-bottom: 30px;
 }
 
-/* Portfolio */
+/* Projects */
 .projects {
     padding: 50px 0;
+	background-color: black;
+	color: white;
 }
 .projects-item {
     margin-bottom: 30px;
@@ -183,6 +187,35 @@ footer {
 	background-color: black;
 	color: white;
 }
-.fa {
+.list-inline > li > a > i > fa {
 	color: white;
+}
+
+
+/*Carousel*/
+.carousel, .item, .active {
+    height: 100%;
+}
+.carousel-inner {
+    height: 100%;
+	background-color: black;
+}
+.fill {
+    width: 100%;
+    height: 100%;
+    /*background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	background-color: black;*/
+}
+#slide1 {
+	background: url(../img/kg_25.jpg) no-repeat center center scroll;
+}
+#slide2 {
+	background: url(../img/skyline4.jpg) no-repeat center center scroll;
+}
+#slide3 {
+	background: url(../img/skyline1.jpg) no-repeat center center scroll;
 }
