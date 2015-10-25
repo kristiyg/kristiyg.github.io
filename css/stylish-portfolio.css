@@ -183,10 +183,11 @@ hr.small {
 .img-projects {
     margin: 0 auto;
 }
+/*
 .img-projects:hover {
     opacity: 0.8;
 }
-
+*/
 /* Footer */
 footer {
     padding: 25px 0;
