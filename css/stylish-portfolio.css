@@ -179,6 +179,8 @@ hr.small {
 }
 .projects-item {
     margin-bottom: 30px;
+	text-align: left;
+	height: 500px;
 }
 .img-projects {
     margin: 0 auto;
