@@ -23,6 +23,8 @@ summary {
 }
 
 .row {
+  display: block;
+  float: left;
   max-height: 100px;
 }
 .col-md-6 {
