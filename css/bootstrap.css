@@ -859,6 +859,7 @@ pre code {
 .col-xs-1 {
   width: 8.33333333%;
 }
+/*
 .col-xs-pull-12 {
   right: 100%;
 }
@@ -937,6 +938,7 @@ pre code {
 .col-xs-push-0 {
   left: auto;
 }
+*/
 .col-xs-offset-12 {
   margin-left: 100%;
 }
