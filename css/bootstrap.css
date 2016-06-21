@@ -25,12 +25,19 @@ summary {
 .row {
   display: block;
   float: left;
+  /**/
   max-height: 100px;
 }
 .col-md-6 {
   padding: 5px;
+  /**/
   max-height: 100px;
   max-width: 150px;
+}
+.col-md-3, col-sm-6 {
+  display: inline-block;
+  float: left;
+  vertical-align: top;
 }
 
 a {
