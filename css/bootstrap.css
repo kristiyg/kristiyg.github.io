@@ -282,6 +282,7 @@ th {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/*
 .glyphicon-asterisk:before {
   content: "\2a";
 }
@@ -1069,6 +1070,7 @@ th {
 .glyphicon-menu-up:before {
   content: "\e260";
 }
+*/
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
