@@ -1776,6 +1776,7 @@ pre code {
   padding: 5px;
   max-width: 150px;
   max-height: 100px;
+  text-align: left;
 }
 .col-md-6 > img {
   max-width: 150px;
@@ -1943,6 +1944,7 @@ pre code {
     padding: 5px;
     max-width: 150px;
     max-height: 100px;
+    text-align: left;
   }
   .col-md-6 > img {
     max-width: 150px;
@@ -2111,6 +2113,7 @@ pre code {
     padding: 5px;
     max-width: 150px;
     max-height: 100px;
+    text-align: left;
   }
   .col-md-6 > img {
     max-width: 150px;
@@ -2279,6 +2282,7 @@ pre code {
     padding: 5px;
     max-width: 150px;
     max-height: 100px;
+    text-align: left;
   }
   .col-md-6 > img {
     max-width: 150px;
